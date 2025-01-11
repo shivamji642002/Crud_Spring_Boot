@@ -77,7 +77,8 @@ The **Employee Management System** is a full-stack application designed to manag
 
 ### **7. Filter Employees by Department**
 - **Method**: `GET`
-- **Endpoint**: `/api/employees/filter`
+- **Endpoint**: `/api/employees/filter` `http://localhost:8080/api/employees?page=0&size=10
+`
 - **Query Parameters**:
   - `department` (string): Department to filter by.
   - `page` (int): Page number (default = 0).
