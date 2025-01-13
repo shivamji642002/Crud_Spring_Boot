@@ -1,11 +1,26 @@
-# React + Vite
+# How to run the project 
+## Fronted 
+# 1 poen vs code
+# 2 terminal git clone https://github.com/shivamji642002/Crud_Spring_Boot.git
+# 3 cd Crud_Spring_Boot
+# 4 cd fronted 
+# 5 npm install
+# 6 npm run 
+fronted run on the web this url like  http://localhost:5173/
+## Backend
+# Need a java jdk 23 and and mysql sofrware 
+# 1 poen vs code shivam directory
+# 2 open the appliction.properties
+spring.application.name=shivam
+spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
+spring.datasource.username=root
+spring.datasource.password=ji642002
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+# hence you change a username and password you need to change in the application.properties file 
+# 3 open the ShivamApplication.java file
+# 4 run the application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # Employee Management System
 
 ## Overview
@@ -37,7 +52,7 @@ The **Employee Management System** is a full-stack application designed to manag
 - **React-Paginate**: For pagination.
 
 ## API Endpoints
-
+d
 ### **1. Add a New Employee**
 - **Method**: `POST`
 - **Endpoint**: `/api/employees`
