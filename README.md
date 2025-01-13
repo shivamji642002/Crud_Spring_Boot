@@ -5,7 +5,7 @@
 # 3 cd Crud_Spring_Boot
 # 4 cd fronted 
 # 5 npm install
-# 6 npm run 
+# 6 npm run dev
 fronted run on the web this url like  http://localhost:5173/
 ## Backend
 # Need a java jdk 23 and and mysql sofrware 
