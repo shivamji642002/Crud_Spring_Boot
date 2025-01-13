@@ -12,6 +12,7 @@ fronted run on the web this url like  http://localhost:5173/
 # 1 poen vs code shivam directory
 # 2 open the appliction.properties
 - spring.application.name=shivam
+# create a database in mysql employee_management
 - spring.datasource.url=jdbc:mysql://localhost:3306/employee_management
 - spring.datasource.username=root
 - spring.datasource.password=ji642002
